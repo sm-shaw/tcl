@@ -710,7 +710,7 @@ static const Tcl_MethodType ForeignkeysStatementConstructorType = {
  * variable substitutions.
  */
 
-const static Tcl_MethodType EvaldirectStatementConstructorType = {
+static const Tcl_MethodType EvaldirectStatementConstructorType = {
     TCL_OO_METHOD_VERSION_CURRENT,
                                 /* version */
     "CONSTRUCTOR",              /* name */
